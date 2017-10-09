@@ -1,0 +1,19 @@
+body {
+	background-image: "../images/deathstar.jpg";
+}
+
+.jumbotron {
+	background-color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.jumbotron h4 {
+	color: yellow;
+}
+
+#logo {
+	margin-left: auto;
+	margin-right: auto;
+    width: 25%;
+}
