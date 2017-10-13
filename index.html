@@ -27,25 +27,149 @@
 </div>
 
 <div class="row">
-	<!-- left column -->
-	<div class="col-md-9">
-		<div class="row">
-			player content
-		</div>
-		<div class="row">
-			selected player
-		</div>
-		<div class="row">
-			buttons ?
-		</div>
-		<div class="row">
-			enemy selected
-		</div>
-	</div>
-	<!-- right empty column -->
-	<div class="col-md-3"> 
+	<!-- main container -->
+	<div class="col-md-12">
+		<!-- characters container-->
+		<div class="characters">
+			<p>Choose your fighter</p>
+			<div class="thumbnail" id="chewbacca">
+					<img src="assets/images/chewbacca.jpg" class="img-thumbnail" value="chewbacca">
+					<div class="caption">
+						<p>Chewbacca</p>
+						<p>Hit Points: 150</p>	
+					</div>  <!-- caption -->
+			</div> <!-- thumbnail characters -->
+			<div class="thumbnail" id="yoda">
+					<img src="assets/images/yoda.jpg" class="img-thumbnail" value="yoda">
+					<div class="caption">
+						<p>Yoda</p>
+						<p>Hit Points: 100</p>	
+					</div>  <!-- caption -->					
+			</div> <!-- thumbnail characters -->
+			<div class="thumbnail" id="hansolo">
+					<img src="assets/images/hansolo.jpg" class="img-thumbnail" value="hansolo">
+					<div class="caption">
+						<p>Han Solo</p>
+						<p>Hit Points: 120</p>	
+					</div>  <!-- caption -->
+			</div> <!-- thumbnail characters -->
+			<div class="thumbnail" id="ewoks">
+					<img src="assets/images/ewoks.jpg" class="img-thumbnail" value="ewoks">
+					<div class="caption">
+						<p>Ewoks</p>
+						<p>Hit Points: 125</p>	
+					</div>  <!-- caption -->					
+			</div> <!-- thumbnail characters -->
+		</div> <!-- characters container -->
 		
-	</div>
+		<!-- players container	 -->
+		<div class="players">
+			<p>Your Fighter</p>
+			<div class="thumbnail" id="chewbacca">
+					<img src="assets/images/chewbacca.jpg" class="img-thumbnail" value="chewbacca">
+					<div class="caption">
+						<p>Chewbacca</p>
+						<p>Hit Points: 150</p>	
+					</div>  <!-- caption -->
+			</div> <!-- thumbnail characters -->
+			<div class="thumbnail" id="yoda">
+					<img src="assets/images/yoda.jpg" class="img-thumbnail" value="yoda">
+					<div class="caption">
+						<p>Yoda</p>
+						<p>Hit Points: 100</p>	
+					</div>  <!-- caption -->					
+			</div> <!-- thumbnail characters -->
+			<div class="thumbnail" id="hansolo">
+					<img src="assets/images/hansolo.jpg" class="img-thumbnail" value="hansolo">
+					<div class="caption">
+						<p>Han Solo</p>
+						<p>Hit Points: 120</p>	
+					</div>  <!-- caption -->
+			</div> <!-- thumbnail characters -->
+			<div class="thumbnail" id="ewoks">
+					<img src="assets/images/ewoks.jpg" class="img-thumbnail" value="ewoks">
+					<div class="caption">
+						<p>Ewoks</p>
+						<p>Hit Points: 125</p>	
+					</div>  <!-- caption -->					
+			</div> <!-- thumbnail characters -->
+		</div> <!-- players container -->
+
+		<!-- enemies container -->
+		<div class="enemies">
+			<p>Choose your enemy</p>
+			<div class="thumbnail" id="chewbacca">
+					<img src="assets/images/chewbacca.jpg" class="img-thumbnail" value="chewbacca">
+					<div class="caption">
+						<p>Chewbacca</p>
+						<p>Hit Points: 150</p>
+					</div>  <!-- caption -->
+			</div> <!-- thumbnail characters -->
+			<div class="thumbnail" id="yoda">
+					<img src="assets/images/yoda.jpg" class="img-thumbnail" value="yoda">
+					<div class="caption">
+						<p>Yoda</p>
+						<p>Hit Points: 100</p>	
+					</div>  <!-- caption -->					
+			</div> <!-- thumbnail characters -->
+			<div class="thumbnail" id="hansolo">
+					<img src="assets/images/hansolo.jpg" class="img-thumbnail" value="hansolo">
+					<div class="caption">
+						<p>Han Solo</p>
+						<p>Hit Points: 120</p>	
+					</div>  <!-- caption -->
+			</div> <!-- thumbnail characters -->
+			<div class="thumbnail" id="ewoks">
+					<img src="assets/images/ewoks.jpg" class="img-thumbnail" value="ewoks">
+					<div class="caption">
+						<p>Ewoks</p>
+						<p>Hit Points: 125</p>	
+					</div>  <!-- caption -->					
+			</div> <!-- thumbnail characters -->
+		</div> <!-- enemies container -->
+
+		<!-- attack button -->
+		<div class="attack">
+			<button type="button" class="btn" id="attack">Attack... pew, pew</button>
+			<div id="playerNotification">Get ready</div>
+			<div id="enemyNotification">for battle!</div>
+		</div>
+		
+
+		<!-- fighters container -->
+		<div class="fighters">
+			<p>The battlefield</p>
+			<div class="thumbnail" id="chewbacca">
+					<img src="assets/images/chewbacca.jpg" class="img-thumbnail" value="chewbacca">
+					<div class="caption">
+						<p>Chewbacca</p>
+						<p>Hit Points: 150</p>	
+					</div>  <!-- caption -->
+			</div> <!-- thumbnail characters -->
+			<div class="thumbnail" id="yoda">
+					<img src="assets/images/yoda.jpg" class="img-thumbnail" value="yoda">
+					<div class="caption">
+						<p>Yoda</p>
+						<p>Hit Points: 100</p>	
+					</div>  <!-- caption -->					
+			</div> <!-- thumbnail characters -->
+			<div class="thumbnail" id="hansolo">
+					<img src="assets/images/hansolo.jpg" class="img-thumbnail" value="hansolo">
+					<div class="caption">
+						<p>Han Solo</p>
+						<p>Hit Points: 120</p>	
+					</div>  <!-- caption -->
+			</div> <!-- thumbnail characters -->
+			<div class="thumbnail" id="ewoks">
+					<img src="assets/images/ewoks.jpg" class="img-thumbnail" value="ewoks">
+					<div class="caption">
+						<p>Ewoks</p>
+						<p>Hit Points: 125</p>	
+					</div>  <!-- caption -->					
+			</div> <!-- thumbnail characters -->
+		</div> <!-- fighters container -->
+
+	</div> <!-- main content column -->
 </div> <!-- main content row -->
 
 </body>
