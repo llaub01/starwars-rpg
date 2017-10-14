@@ -78,9 +78,7 @@ $(document).ready(function(){
 		// all icons need id of player
 		$(".characters .thumbnail").on("click", function(id) {
 
-			console.log($(this).attr("id"));
 			var clicked = $(this).attr("id");
-			console.log(clicked);
 
 			if (playerPicked === false) {
 				if (clicked === "chewbacca") {
@@ -133,37 +131,34 @@ $(document).ready(function(){
 				}
 			}
 
-			console.log(selectedPlayer.name);
 		});
 
 		// enemy selection
 		$(".enemies .thumbnail").on("click", function(id) {
 
-			console.log($(this).attr("id"));
 			var clicked = $(this).attr("id");
-			console.log(clicked);
 
 			if (enemyPicked === false) {
 				if (clicked === "chewbacca") {
-					selectedEnemy = chewbaccaStats
+					selectedEnemy = chewbaccaStats;
 				 	$(".enemies #chewbacca").hide();
 				 	$(".fighters #chewbacca").show();
 				 	enemyPicked = true;
 				}
 				else if (clicked === "yoda") {
-					selectedEnemy = yodaStats
+					selectedEnemy = yodaStats;
 					$(".enemies #yoda").hide();
 					$(".fighters #yoda").show();
 					enemyPicked = true;
 				}
 				else if (clicked === "ewoks") {
-					selectedEnemy = ewoksStats
+					selectedEnemy = ewoksStats;
 					$(".enemies #ewoks").hide();
 					$(".fighters #ewoks").show();
 					enemyPicked = true;
 				}
 				else if (clicked === "hansolo") {
-					selectedEnemy = hansoloStats
+					selectedEnemy = hansoloStats;
 					$(".enemies #hansolo").hide();
 					$(".fighters #hansolo").show();
 					enemyPicked = true;
